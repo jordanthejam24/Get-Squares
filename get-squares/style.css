@@ -2,3 +2,38 @@
     margin:0;
     padding:0;
 }
+
+#black-square{
+    width: 25px;
+    height: 25px;
+}
+
+canvas{
+    width: 400px;
+    height: 400px;
+    outline: 1px solid black;
+    display: inline-block;
+}
+
+/* #cursorSVG{
+    height:25px;
+    width: 25px;
+    display: inline-block;
+} */
+
+.static {
+    cursor: not-allowed;
+}
+.draggable {
+    cursor: move;
+    cursor: none;
+}
+#svg-box{
+    display: inline-block;
+    outline: 1px solid blue;
+}
+.svg-test{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}

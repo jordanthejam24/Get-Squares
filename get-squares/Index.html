@@ -8,8 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hazzah</h1>
+    <h1>To Play, Click the Square!</h1>
+    <canvas onmousemove="changeCursor(event)">
+        
+    </canvas>
+    <!-- <svg id="cursorSVG">
+        <rect width="25" height="25" style="fill:#000;"/>
+    </svg> -->
+    
+
+    <div class="svg-test">
+        <svg id="svg-box" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" onload="makeDraggable(evt)">
+            <rect class="draggable" fill="#000" x="2" y="" width="2" height="2" transform="rotate(90, 5, 5) translate(10, 0)"/>
+        </svg>
+    </div>
+
+
+
+
+    <p id="demo"></p>
     <script src="script.js"></script>
-    <h2>test</h2>
 </body>
 </html>
